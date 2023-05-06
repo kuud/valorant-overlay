@@ -179,6 +179,8 @@ const Admin = () => {
                                         <Option value="Haven">Haven</Option>
                                         <Option value="Icebox">Icebox</Option>
                                         <Option value="Split">Split</Option>
+										<Option value="Pearl">Pearl</Option>
+										<Option value="Lotus">Lotus</Option>
                                     </Select>
                                     <Select name="maps" id="maps" onChange={(e) => handleVetoMapChange(e, 'blue', 'ban', 1)}>
                                         <Option value=""></Option>
@@ -189,6 +191,8 @@ const Admin = () => {
                                         <Option value="Haven">Haven</Option>
                                         <Option value="Icebox">Icebox</Option>
                                         <Option value="Split">Split</Option>
+										<Option value="Pearl">Pearl</Option>
+										<Option value="Lotus">Lotus</Option>
                                     </Select>
                                 </Bans>
                                 <Pick>
@@ -202,6 +206,8 @@ const Admin = () => {
                                         <Option value="Haven">Haven</Option>
                                         <Option value="Icebox">Icebox</Option>
                                         <Option value="Split">Split</Option>
+										<Option value="Pearl">Pearl</Option>
+										<Option value="Lotus">Lotus</Option>
                                     </Select>
                                 </Pick>
                             </MapContainer>
@@ -217,6 +223,8 @@ const Admin = () => {
                                     <Option value="Haven">Haven</Option>
                                     <Option value="Icebox">Icebox</Option>
                                     <Option value="Split">Split</Option>
+									<Option value="Pearl">Pearl</Option>
+									<Option value="Lotus">Lotus</Option>
                                 </Select>
                             </MainMap>
                             
@@ -232,6 +240,8 @@ const Admin = () => {
                                         <Option value="Haven">Haven</Option>
                                         <Option value="Icebox">Icebox</Option>
                                         <Option value="Split">Split</Option>
+										<Option value="Pearl">Pearl</Option>
+										<Option value="Lotus">Lotus</Option>
                                     </Select>
                                     <Select name="maps" id="maps" onChange={(e) => handleVetoMapChange(e, 'red', 'ban', 1)}>
                                         <Option value=""></Option>
@@ -242,6 +252,8 @@ const Admin = () => {
                                         <Option value="Haven">Haven</Option>
                                         <Option value="Icebox">Icebox</Option>
                                         <Option value="Split">Split</Option>
+										<Option value="Pearl">Pearl</Option>
+										<Option value="Lotus">Lotus</Option>
                                     </Select>
                                 </Bans>
                                 <Pick>
@@ -255,6 +267,8 @@ const Admin = () => {
                                         <Option value="Haven">Haven</Option>
                                         <Option value="Icebox">Icebox</Option>
                                         <Option value="Split">Split</Option>
+										<Option value="Pearl">Pearl</Option>
+										<Option value="Lotus">Lotus</Option>
                                     </Select>
                                 </Pick>
                             </MapContainer>
