@@ -70,5 +70,17 @@
     "Neon": {
         "id": 19,
         "role": "Duelist"
+    },
+	"Fade": {
+        "id": 20,
+        "role": "Initiator"
+    },
+	"Harbor": {
+        "id": 21,
+        "role": "Controller"
+    },
+	"Gekko": {
+        "id": 22,
+        "role": "Initiator"
     }
 }
