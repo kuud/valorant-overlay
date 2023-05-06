@@ -16,7 +16,7 @@ export const MainMap = styled.div`
     width: 320px;
     height: 180px;
     box-sizing: border-box;
-    border: 5px solid #BBA151;
+    border: 5px solid #9e092c;
     position: relative;
 
     ${({ imgURL }) => imgURL && (`
@@ -30,7 +30,7 @@ export const PickedMap = styled.div`
     width: 320px;
     height: 180px;
     box-sizing: border-box;
-    border: 5px solid #BBA151;
+    border: 5px solid #9e092c;
     position: relative;
 
     ${({ imgURL }) => imgURL && (`
@@ -44,7 +44,7 @@ export const BannedMap = styled.div`
     width: 320px;
     height: 180px;
     box-sizing: border-box;
-    border: 5px solid #BBA151;
+    border: 5px solid #9e092c;
     position: relative;
 
     ${({ imgURL }) => imgURL && (`
@@ -54,9 +54,10 @@ export const BannedMap = styled.div`
     `)}
 `
 
+//changed to sans-serif from impact
 export const MapHeader = styled.div`
     color: white;
-    font-family: Impact;
+    font-family: Sans-Serif;
     font-size: 36px;
     font-weight: 900;
     letter-spacing: 8px;
@@ -95,7 +96,7 @@ export const PickedMapContainer = styled.div`
         & > ${PickedMap} {
             transition: 2s;
             width: 0px;
-            border: 0px solid #BBA151;
+            border: 0px solid #9e092c;
         }
 
         & > ${MapHeader}, & > ${PickedMap} > ${MapName} {
@@ -119,7 +120,7 @@ export const BannedMapsContainer = styled.div`
         & > ${BannedMap} {
             transition: 2s;
             width: 0px;
-            border: 0px solid #BBA151;
+            border: 0px solid #9e092c;
         }
 
         & > ${MapHeader}, & > ${BannedMap} > ${MapName} {
@@ -156,13 +157,13 @@ export const CenterMapVetoContainer = styled.div`
     align-items: center;
 `;
 
+//changed from monsterrat (not working) to calibri
 export const PlayerName = styled.div`
     flex: 1;
     color: white;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-family: Calibri;
+    font-size: 28px;
+    font-weight: 900;
     margin-left: 20px;
 `
 
@@ -210,7 +211,7 @@ export const PlayerInfo = styled.div`
     height: 100%;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(90deg, rgba(187,161,81,1) 0%, rgba(0,212,255,0) 100%);
+    background: linear-gradient(90deg, rgba(158,9,44,1) 0%, rgba(0,212,255,0) 100%);
 
 `
 
@@ -244,7 +245,7 @@ export const PlayersContainer = styled.div`
     ${({team}) => team === "red" && (`
         & > ${FlexChild} > ${PlayerInfo} {
             direction: rtl !important;
-            background: linear-gradient(-90deg, rgba(187,161,81,1) 0%, rgba(0,212,255,0) 100%) !important;
+            background: linear-gradient(-90deg, rgba(158,9,44,1) 0%, rgba(0,212,255,0) 100%) !important;
         }
 
         & > ${FlexChild} > ${PlayerInfo} > ${BottomInfo} {
@@ -267,13 +268,13 @@ export const Game = styled.div`
     margin-bottom: 5px;
 `;
 export const Round = styled.div`
-    font-family: Montserrat;
+    font-family: Sans-Serif;
     font-size: 20px;
     font-weight: 600;
 `;
 
 export const Timer = styled.div`
-    font-family: Montserrat;
+    font-family: Calibri;
     font-size: 60px;
 `;
 
@@ -291,11 +292,11 @@ export const GameInfo = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    background-color: #BBA151;
+    background-color: #9e092c;
 `;
 
 export const Score = styled.div`
-    color: #D4AF37;
+    color: #9e092c;
     font-size: 100px;
     font-weight: 500;
     font: 500 100px 'Montserrat', sans-serif;
@@ -320,7 +321,7 @@ export const TeamInfoContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    color: #D4AF37;
+    color: #b60a33;
 `
 
 export const Bar = styled.div`
